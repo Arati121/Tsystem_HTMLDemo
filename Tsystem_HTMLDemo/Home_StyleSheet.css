@@ -1,0 +1,52 @@
+﻿.header {
+    height: 20px;
+    direction: unset;
+    background-color:lightgreen;
+}
+
+.menu {
+    height: 70px;
+    background-color: #f2ccff;
+}
+
+    .menu ul {
+        display: inline-flex;
+        float: right;
+    }
+
+        .menu ul li {
+            list-style-type: none;
+            margin-right: 41px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #C0392B;
+                font-size: 23px;
+                font-weight: 500;
+            }
+
+a:hover {
+    color: #1B4F72 !important;
+}
+
+.banner {
+    background-image: url('images (1).jpg');
+    height: 305px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+   
+}
+
+
+.main-content
+{
+    background-color:aqua;
+}
+
+.footer {
+    height: 50px;
+    background-color: #F2F4F4;
+   
+}
